@@ -14,7 +14,7 @@ The project consists of two simple services:
  3. Install Docker compose from https://docs.docker.com/compose/install/
  4. Test previous installation <br />`docker --version` <br /> `docker-compose --version`
  5. Clone this repository `git clone https://github.com/bdzanko17/Atlantbh-task.git`
- 6. Make sure that you are pozitioned in cloned repository 
+ 6. Make sure that you are positioned in cloned repository
  7. Run `docker-compose build` for  building custom images
  8. Run `docker-compose up` for running dockerized microservices project
  
