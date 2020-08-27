@@ -1,4 +1,4 @@
-# Building Spring Boot application with docker
+# Building and runing Spring Boot application with docker
 ## Dockerfile main layers
  - Ubuntu for git
  - Maven for building jar file 
