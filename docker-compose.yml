@@ -1,6 +1,6 @@
 version: "3.1"
 services:
-  #
+  #Spring-boot service
   app:
     container_name: springboot-postgresql
     build: ./spring-boot-app
