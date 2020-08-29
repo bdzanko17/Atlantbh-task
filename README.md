@@ -5,7 +5,22 @@
 The project consists of two simple services:
  - spring-boot-app - Java application with SpringBoot and connection to postgresql database server
  - node-app - Node.js application with Express
- 
+### Node.js 
+This is a simple node.js based app that exposes following endpoints:
+
+```
+GET /node/api/v1/result
+```
+### Spring-Boot
+This is a simple spring-boot app. The application connects to postgres database (connection defined in `spring-boot-app/app-config.yml`) and connects to node-app.
+
+```
+GET /java/api/v1/status
+```
+```
+GET /java/api/v1/node
+```
+
  ##  Instructions for running microservices project with docker-compose
  
  ## Steps
@@ -19,5 +34,5 @@ The project consists of two simple services:
  8. Run `docker-compose up` for running dockerized microservices project
  
  ## Test running applications with bash file 
- - Once all services (containers) are running, execute health_check.sh script locally and verify its output is All checks passed. 
+ - Once all services (containers) are running, execute health_check.sh script locally and verify its output is All checks passed.
  
